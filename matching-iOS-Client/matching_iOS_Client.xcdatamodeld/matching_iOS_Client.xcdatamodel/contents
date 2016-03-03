@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="AllMatches" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currentCity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="interest1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="interest2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="interest3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="interest4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="interest5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="major" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nationality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reason" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reasonformatchvalue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DateTime1" syncable="YES">
+        <attribute name="currentDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="currentTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AllMatches" positionX="-63" positionY="-18" width="128" height="255"/>
+        <element name="DateTime1" positionX="-63" positionY="90" width="128" height="90"/>
+    </elements>
+</model>
